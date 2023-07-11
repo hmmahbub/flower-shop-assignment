@@ -6,8 +6,8 @@
 
 .header-section {
     display: flex;
-    background: rgba(204, 112, 132, 0.1);
-    width:1920px;
+    background: #cc70841a;
+    width: 1920px;
     height: 750px;
 }
 
@@ -57,10 +57,11 @@
 /* style header section */
   
 
-/* main section style */
+/* main style start */
 
 
 
+/* flower section style */
 .flower-description{
     color: #272727;
     text-align: center;
@@ -70,31 +71,91 @@
 
 .flower-item{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
 }
 .flower-1{
-    width: 464px;
-    height: 538px;
+    width: 400px;
+    height: 438px;
+
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(128, 59, 92, 0.15);
+    margin-right: 20px;
+}
+.flower-1 img { 
+    width: 300px;
+    height: 410px;
+    padding: 30px;
 }
 
 .flower-2{
-    width: 464px;
-    height: 538px;
+    width: 400px;
+    height: 438px;
+
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-right: 20px;
+}
+.flower-2 img{
+    width: 350px;
+    height: 400px;
+    padding: 30px;
 }
 
 .flower-3{
-    width: 464px;
-    height: 538px;
+    width: 400px;
+    height: 438px;
+
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.flower-3 img{
+    width: 350px;
+    height: 430px;
+    padding: 10px;
 }
 
+.flower-name{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* flower section style */
+
+.sec-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(229, 84, 115, 0.05);
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.btn-primary-2{
+    background-color: #e55473;
+    color: #ffff;
+    width: 100px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-family: Lato;
+    font-weight: 700;
+    border: none;
+}
+.pink{
+    color: #E55473;
+}
+
+.discount-flower-photos img{
+    width: 320px;
+    height: 420px;
+}
+/* flower discount sec end */
 
 
 
 
 
-
-
-
-
-
-
-/* main section style */
+/* main style end*/
