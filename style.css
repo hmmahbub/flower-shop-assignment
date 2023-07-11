@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* style header section */
+
+.header-section {
+    display: flex;
+    background: rgba(204, 112, 132, 0.1);
+    width:1920px;
+    height: 750px;
+}
+
+.header-bio{
+    width: 708px;
+    margin: 100px auto auto 100px;
+}
+
+.header-bio h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header-bio p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-primary{
+    background-color: #e55473;
+    color: #ffff;
+    width: 180px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 700;
+    border: none;
+}
+
+.header-profile{
+
+}
+
+.header-profile img{
+    width: 550px;
+    height: 750px;
+    margin-right: 450px;
+    margin-bottom: 0;
+}
+
+/* style header section */
+  
+
+/* main section style */
+
+
+
+.flower-description{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    margin-top: 150px;
+}
+
+.flower-item{
+    display: flex;
+}
+.flower-1{
+    width: 464px;
+    height: 538px;
+}
+
+.flower-2{
+    width: 464px;
+    height: 538px;
+}
+
+.flower-3{
+    width: 464px;
+    height: 538px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* main section style */
