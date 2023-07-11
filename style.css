@@ -129,8 +129,47 @@
     text-align: center;
     margin-top: 20px;
 }
+/* optional sec style start */
 
-/* flower section style */
+.optional-sec{
+    
+}
+
+.optional-sec-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    margin-top: 150px;
+}
+.optional-sec-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.optional-sec-item img{
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+}
+.optional-sec-item img:hover{
+    width: 210px;
+    transform: scale(1.2);
+    margin-bottom: 10px;
+}
+
+.op-title{
+    text-align: center;
+}
+.op-title:hover{
+    text-decoration: underline;
+}
+
+/* optional sec style end */
+
+
+
+/* flower section style start*/
 
 .sec-container {
     display: flex;
