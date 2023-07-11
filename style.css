@@ -233,6 +233,7 @@
     border-radius: 5px;
     font-family: Lato;
     font-weight: 700;
+    border: none;
 }
 
 .coll-lg{
@@ -244,9 +245,10 @@
     padding: 10px;
 }
 /* social media section style end */
+
 /* main style end*/
 
-
+/* footer style start */
 footer{
     margin-top: 200px;
     width: 100%;
